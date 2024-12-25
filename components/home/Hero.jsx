@@ -5,13 +5,13 @@ export default function Hero() {
       <div className="relative bg-white" id="hero">
        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10" id="hero-sub">
          <div className="text-center">
-           <h1 className={`${bitter.className} text-4xl tracking-tight text-stone-800 sm:text-5xl md:text-6xl`}>
-             <span className="block text-emerald-700 font-extrabold">We match</span>
-             <span className="block font-bold mt-2">aspiring helpers - paid projects</span>
+           <h1 className={`${bitter.className} text-4xl text-emerald-700 sm:text-5xl md:text-6xl font-bold`}>HelpPool</h1>
+           <h1 className={`${bitter.className} mt-5 text-2xl tracking-tight text-stone-800 sm:text-3xl md:text-4xl`}>
+             <span className="block font-bold">We match aspiring helpers - paid projects</span>
            </h1>
-           <p className={`${dmSans.className} mt-3 max-w-md mx-auto text-base text-stone-600 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl`}>
-             Connecting Hong Kong's talents with local projects. From students to professionals, 
-             tiny tasks to big projects - we're here to help you.
+           <p className={`${dmSans.className} mt-3 max-w-md mx-auto text-base text-stone-600 sm:text-lg md:mt-5 md:text-lg md:max-w-3xl`}>
+             Connecting Hong Kong's talents with local projects.<br /> 
+             From students to professionals, tiny to big projects - we'll help you find each other'.
            </p>
          </div>
        </div>
