@@ -5,18 +5,19 @@ export default function Contact() {
     <div className="max-w-xl mx-auto py-8 px-4">
       <div className="text-left">
         <h2 className="text-2xl font-semibold mb-4">About us</h2>
-        <h3 className='text-xl font-medium mb-2'>HelpPool</h3>
+        {/* <h3 className='text-xl font-medium mb-2'>HelpPool</h3> */}
         <p className="text-gray-600 mb-4">
-          Many times, I come across either people who are looking for help someone to work 
-          with on their projects, like a student looking for another student, OR
+          Many times, I come across either people who are looking for someone to help 
+          on their projects on various tasks like coding, desigining, etc OR
           people who are looking to practice their skills so that they can get more experience before applying
-          for jobs / internships or simply making some extra money. I beleive this platform could
+          for jobs / internships or simply making extra money. HelpPool aims to
           help these people connect and help each other grow.
           <br /><br />
-          HelpPool now only <span className="underline">focuses on helpers and projects in Hong Kong</span> to ensure great communications,
+          The platform now only <span className="underline">focuses on helpers and projects in Hong Kong</span> to ensure great communications,
           collaboration, and safety for both sides.
         </p>
         <h2 className="text-2xl font-semibold mb-4">Contact us</h2>
+        <img src="/pearl.jpg" alt="Pearl" className="w-24 h-24 rounded-lg mb-2" />
         <h3 className="text-xl font-medium mb-2">Phutanate Pisutsin (Pearl)</h3>
         <h4 className="text-sm font-medium mb-2">Computer Science Year-4, CUHK</h4>
         <p className="text-gray-600 mb-4">

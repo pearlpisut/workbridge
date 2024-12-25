@@ -5,7 +5,7 @@ export default function Hero() {
       <div className="relative bg-white" id="hero">
        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10" id="hero-sub">
          <div className="text-center">
-           <h1 className={`${bitter.className} text-4xl text-emerald-700 sm:text-5xl md:text-6xl font-bold`}>HelpPool</h1>
+           <h1 className={`${bitter.className} text-4xl text-emerald-600 sm:text-5xl md:text-6xl font-bold`}>HelpPool</h1>
            <h1 className={`${bitter.className} mt-5 text-2xl tracking-tight text-stone-800 sm:text-3xl md:text-4xl`}>
              <span className="block font-bold">We match aspiring helpers - paid projects</span>
            </h1>
