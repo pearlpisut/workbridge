@@ -11,17 +11,20 @@ export async function POST(request) {
         name: data.name,
         email: data.email,
         project_details: data.projectDetails,
+        duties_for_helper: data.dutiesForHelper,
         budget: data.budget,
-        deadline: data.deadline
+        deadline: data.deadline,
+        additional_details: data.additionalProjectDetails || null,
+        status: 'new'
       }])
 
     if (error) throw error
 
-    return NextResponse.json({ message: 'Client created successfully' }, { status: 201 })
+    return NextResponse.json({ message: 'Client application submitted successfully' }, { status: 201 })
   } catch (error) {
     console.error('Error:', error)
     return NextResponse.json(
-      { error: 'Failed to create client' }, 
+      { error: 'Failed to submit client application' }, 
       { status: 500 }
     )
   }

@@ -25,6 +25,9 @@ export default function RootLayout({ children }) {
         <main>
           {children}
         </main>
+        <div className="mt-8 mb-2 text-center text-sm text-gray-500">
+          <p>&copy; 2024 HelpPool</p>
+        </div>
       </body>
     </html>
   );
