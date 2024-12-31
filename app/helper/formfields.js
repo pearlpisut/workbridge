@@ -37,8 +37,8 @@ const PROJECT_TYPES = [
    
 export const formFields = [
     { name: 'name', label: 'Full Name', type: 'text', required: true },
-    { name: 'email', label: 'Email', type: 'email', required: true },
     { name: 'whatsapp', label: 'WhatsApp Number', type: 'text', required: true },
+    { name: 'email', label: 'Email', type: 'email', required: true },
     { 
       name: 'location', 
       label: 'Current Location', 
